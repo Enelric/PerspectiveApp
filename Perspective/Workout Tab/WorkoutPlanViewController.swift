@@ -9,10 +9,14 @@
 import UIKit
 
 class WorkoutPlanViewController: UIViewController {
+    @IBOutlet weak var planImage: UIImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        //Set the image
+        planImage.image = UIImage(named: "Image")
+        
+        
         // Do any additional setup after loading the view.
     }
 

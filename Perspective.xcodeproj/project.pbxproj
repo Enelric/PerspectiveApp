@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39E773F32E20835802F9EA78 /* Pods_PerspectiveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87939ABED77261369D153500 /* Pods_PerspectiveTests.framework */; };
+		5A4AF292F16A060D6F7949E8 /* Pods_PerspectiveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C7B5F15ED96013C1C6442C /* Pods_PerspectiveUITests.framework */; };
+		A36B5C2276D348678084BB80 /* Pods_Perspective.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3679AEF4123EF57D34C6692D /* Pods_Perspective.framework */; };
+		E40A82381D2861D000A680BB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40A82371D2861D000A680BB /* ProfileViewController.swift */; };
+		E40A823A1D28665000A680BB /* RewardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40A82391D28665000A680BB /* RewardsViewController.swift */; };
+		E40A823C1D28666C00A680BB /* ReferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40A823B1D28666C00A680BB /* ReferViewController.swift */; };
+		E40A823E1D28668300A680BB /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40A823D1D28668300A680BB /* NotificationViewController.swift */; };
+		E40A82401D28669700A680BB /* LogOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40A823F1D28669700A680BB /* LogOutViewController.swift */; };
+		E4121F771D32FB0200C9EACC /* CalendarCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4121F761D32FB0200C9EACC /* CalendarCellView.xib */; };
+		E4121F791D32FCB000C9EACC /* CalendarCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4121F781D32FCB000C9EACC /* CalendarCellView.swift */; };
+		E4121F7C1D33001700C9EACC /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4121F7B1D33001700C9EACC /* CalendarViewController.swift */; };
+		E4121F7E1D33080A00C9EACC /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4121F7D1D33080A00C9EACC /* CalendarView.swift */; };
+		E4A719D11D2965AB00BC9CD5 /* WorkoutPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A719D01D2965AB00BC9CD5 /* WorkoutPlanViewController.swift */; };
 		E4AABFB21D206353001A5969 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AABFB11D206353001A5969 /* AppDelegate.swift */; };
 		E4AABFB41D206353001A5969 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AABFB31D206353001A5969 /* FirstViewController.swift */; };
 		E4AABFB61D206353001A5969 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AABFB51D206353001A5969 /* SecondViewController.swift */; };
@@ -15,6 +28,8 @@
 		E4AABFBE1D206353001A5969 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4AABFBC1D206353001A5969 /* LaunchScreen.storyboard */; };
 		E4AABFC91D206354001A5969 /* PerspectiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AABFC81D206354001A5969 /* PerspectiveTests.swift */; };
 		E4AABFD41D206354001A5969 /* PerspectiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AABFD31D206354001A5969 /* PerspectiveUITests.swift */; };
+		E4AABFE21D2065B4001A5969 /* MoreTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AABFE11D2065B4001A5969 /* MoreTableVC.swift */; };
+		E4AABFE41D20678C001A5969 /* MoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AABFE31D20678C001A5969 /* MoreTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +50,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3679AEF4123EF57D34C6692D /* Pods_Perspective.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Perspective.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		419AD714BBC220EA0A2A89B5 /* Pods-PerspectiveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerspectiveUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PerspectiveUITests/Pods-PerspectiveUITests.release.xcconfig"; sourceTree = "<group>"; };
+		51C7B5F15ED96013C1C6442C /* Pods_PerspectiveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PerspectiveUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87939ABED77261369D153500 /* Pods_PerspectiveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PerspectiveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D00EE2A52EA1B1DC810BCA6 /* Pods-PerspectiveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerspectiveUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PerspectiveUITests/Pods-PerspectiveUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9225F8E98CE4AC68F7A27D60 /* Pods-Perspective.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Perspective.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Perspective/Pods-Perspective.debug.xcconfig"; sourceTree = "<group>"; };
+		A6A82C09ACC0436071B58581 /* Pods-PerspectiveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerspectiveTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PerspectiveTests/Pods-PerspectiveTests.release.xcconfig"; sourceTree = "<group>"; };
+		B4F435BBAAF99ABC4FA3E1CC /* Pods-Perspective.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Perspective.release.xcconfig"; path = "Pods/Target Support Files/Pods-Perspective/Pods-Perspective.release.xcconfig"; sourceTree = "<group>"; };
+		E40A82371D2861D000A680BB /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		E40A82391D28665000A680BB /* RewardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewardsViewController.swift; sourceTree = "<group>"; };
+		E40A823B1D28666C00A680BB /* ReferViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferViewController.swift; sourceTree = "<group>"; };
+		E40A823D1D28668300A680BB /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		E40A823F1D28669700A680BB /* LogOutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogOutViewController.swift; sourceTree = "<group>"; };
+		E4121F761D32FB0200C9EACC /* CalendarCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarCellView.xib; sourceTree = "<group>"; };
+		E4121F781D32FCB000C9EACC /* CalendarCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarCellView.swift; sourceTree = "<group>"; };
+		E4121F7B1D33001700C9EACC /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		E4121F7D1D33080A00C9EACC /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		E4A719D01D2965AB00BC9CD5 /* WorkoutPlanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkoutPlanViewController.swift; path = "Workout Tab/WorkoutPlanViewController.swift"; sourceTree = "<group>"; };
 		E4AABFAE1D206353001A5969 /* Perspective.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Perspective.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4AABFB11D206353001A5969 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4AABFB31D206353001A5969 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +82,9 @@
 		E4AABFCF1D206354001A5969 /* PerspectiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerspectiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4AABFD31D206354001A5969 /* PerspectiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerspectiveUITests.swift; sourceTree = "<group>"; };
 		E4AABFD51D206354001A5969 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4AABFE11D2065B4001A5969 /* MoreTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreTableVC.swift; sourceTree = "<group>"; };
+		E4AABFE31D20678C001A5969 /* MoreTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreTableViewCell.swift; sourceTree = "<group>"; };
+		F92296ECC1ECE8A25A110C42 /* Pods-PerspectiveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerspectiveTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PerspectiveTests/Pods-PerspectiveTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A36B5C2276D348678084BB80 /* Pods_Perspective.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39E773F32E20835802F9EA78 /* Pods_PerspectiveTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +108,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A4AF292F16A060D6F7949E8 /* Pods_PerspectiveUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5305A6630128CB45A7ACFC72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9225F8E98CE4AC68F7A27D60 /* Pods-Perspective.debug.xcconfig */,
+				B4F435BBAAF99ABC4FA3E1CC /* Pods-Perspective.release.xcconfig */,
+				F92296ECC1ECE8A25A110C42 /* Pods-PerspectiveTests.debug.xcconfig */,
+				A6A82C09ACC0436071B58581 /* Pods-PerspectiveTests.release.xcconfig */,
+				8D00EE2A52EA1B1DC810BCA6 /* Pods-PerspectiveUITests.debug.xcconfig */,
+				419AD714BBC220EA0A2A89B5 /* Pods-PerspectiveUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A58905F3F701986E585005FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3679AEF4123EF57D34C6692D /* Pods_Perspective.framework */,
+				87939ABED77261369D153500 /* Pods_PerspectiveTests.framework */,
+				51C7B5F15ED96013C1C6442C /* Pods_PerspectiveUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E4AABFA51D206353001A5969 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +145,8 @@
 				E4AABFC71D206354001A5969 /* PerspectiveTests */,
 				E4AABFD21D206354001A5969 /* PerspectiveUITests */,
 				E4AABFAF1D206353001A5969 /* Products */,
+				5305A6630128CB45A7ACFC72 /* Pods */,
+				A58905F3F701986E585005FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,9 +164,21 @@
 			isa = PBXGroup;
 			children = (
 				E4AABFB11D206353001A5969 /* AppDelegate.swift */,
+				E4121F761D32FB0200C9EACC /* CalendarCellView.xib */,
+				E4121F781D32FCB000C9EACC /* CalendarCellView.swift */,
+				E4121F7B1D33001700C9EACC /* CalendarViewController.swift */,
 				E4AABFB31D206353001A5969 /* FirstViewController.swift */,
 				E4AABFB51D206353001A5969 /* SecondViewController.swift */,
 				E4AABFB71D206353001A5969 /* Main.storyboard */,
+				E4121F7D1D33080A00C9EACC /* CalendarView.swift */,
+				E4A719D01D2965AB00BC9CD5 /* WorkoutPlanViewController.swift */,
+				E40A82391D28665000A680BB /* RewardsViewController.swift */,
+				E40A823B1D28666C00A680BB /* ReferViewController.swift */,
+				E40A823D1D28668300A680BB /* NotificationViewController.swift */,
+				E40A823F1D28669700A680BB /* LogOutViewController.swift */,
+				E40A82371D2861D000A680BB /* ProfileViewController.swift */,
+				E4AABFE31D20678C001A5969 /* MoreTableViewCell.swift */,
+				E4AABFE11D2065B4001A5969 /* MoreTableVC.swift */,
 				E4AABFBA1D206353001A5969 /* Assets.xcassets */,
 				E4AABFBC1D206353001A5969 /* LaunchScreen.storyboard */,
 				E4AABFBF1D206353001A5969 /* Info.plist */,
@@ -135,9 +211,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4AABFD81D206354001A5969 /* Build configuration list for PBXNativeTarget "Perspective" */;
 			buildPhases = (
+				EBAEB025A52512B0B7DE697D /* [CP] Check Pods Manifest.lock */,
 				E4AABFAA1D206353001A5969 /* Sources */,
 				E4AABFAB1D206353001A5969 /* Frameworks */,
 				E4AABFAC1D206353001A5969 /* Resources */,
+				B9F12C6B7FE33A85127C625A /* [CP] Embed Pods Frameworks */,
+				9E7CC7C9DD5ECC9BE53E119A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4AABFDB1D206354001A5969 /* Build configuration list for PBXNativeTarget "PerspectiveTests" */;
 			buildPhases = (
+				BBAAC81EF25059830592009D /* [CP] Check Pods Manifest.lock */,
 				E4AABFC01D206354001A5969 /* Sources */,
 				E4AABFC11D206354001A5969 /* Frameworks */,
 				E4AABFC21D206354001A5969 /* Resources */,
+				08CBA186B7E3A227AC94279F /* [CP] Embed Pods Frameworks */,
+				75BC9A3886964805083C84B5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +252,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4AABFDE1D206354001A5969 /* Build configuration list for PBXNativeTarget "PerspectiveUITests" */;
 			buildPhases = (
+				0D06C6D3339EDFF3DDA89523 /* [CP] Check Pods Manifest.lock */,
 				E4AABFCB1D206354001A5969 /* Sources */,
 				E4AABFCC1D206354001A5969 /* Frameworks */,
 				E4AABFCD1D206354001A5969 /* Resources */,
+				30314E9402F8AFB961AC1104 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +318,7 @@
 			files = (
 				E4AABFBE1D206353001A5969 /* LaunchScreen.storyboard in Resources */,
 				E4AABFBB1D206353001A5969 /* Assets.xcassets in Resources */,
+				E4121F771D32FB0200C9EACC /* CalendarCellView.xib in Resources */,
 				E4AABFB91D206353001A5969 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,14 +339,148 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08CBA186B7E3A227AC94279F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PerspectiveTests/Pods-PerspectiveTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0D06C6D3339EDFF3DDA89523 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		30314E9402F8AFB961AC1104 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PerspectiveUITests/Pods-PerspectiveUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75BC9A3886964805083C84B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PerspectiveTests/Pods-PerspectiveTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E7CC7C9DD5ECC9BE53E119A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Perspective/Pods-Perspective-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9F12C6B7FE33A85127C625A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Perspective/Pods-Perspective-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBAAC81EF25059830592009D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EBAEB025A52512B0B7DE697D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E4AABFAA1D206353001A5969 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E40A82381D2861D000A680BB /* ProfileViewController.swift in Sources */,
+				E40A823A1D28665000A680BB /* RewardsViewController.swift in Sources */,
+				E4AABFE21D2065B4001A5969 /* MoreTableVC.swift in Sources */,
+				E4AABFE41D20678C001A5969 /* MoreTableViewCell.swift in Sources */,
 				E4AABFB61D206353001A5969 /* SecondViewController.swift in Sources */,
+				E40A823E1D28668300A680BB /* NotificationViewController.swift in Sources */,
+				E4121F791D32FCB000C9EACC /* CalendarCellView.swift in Sources */,
 				E4AABFB21D206353001A5969 /* AppDelegate.swift in Sources */,
+				E4121F7E1D33080A00C9EACC /* CalendarView.swift in Sources */,
+				E4121F7C1D33001700C9EACC /* CalendarViewController.swift in Sources */,
 				E4AABFB41D206353001A5969 /* FirstViewController.swift in Sources */,
+				E4A719D11D2965AB00BC9CD5 /* WorkoutPlanViewController.swift in Sources */,
+				E40A82401D28669700A680BB /* LogOutViewController.swift in Sources */,
+				E40A823C1D28666C00A680BB /* ReferViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,28 +622,33 @@
 		};
 		E4AABFD91D206354001A5969 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9225F8E98CE4AC68F7A27D60 /* Pods-Perspective.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Perspective/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Perspective-Fitness.Perspective";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Debug;
 		};
 		E4AABFDA1D206354001A5969 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4F435BBAAF99ABC4FA3E1CC /* Pods-Perspective.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Perspective/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Perspective-Fitness.Perspective";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
 		E4AABFDC1D206354001A5969 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F92296ECC1ECE8A25A110C42 /* Pods-PerspectiveTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PerspectiveTests/Info.plist;
@@ -437,6 +661,7 @@
 		};
 		E4AABFDD1D206354001A5969 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6A82C09ACC0436071B58581 /* Pods-PerspectiveTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PerspectiveTests/Info.plist;
@@ -449,6 +674,7 @@
 		};
 		E4AABFDF1D206354001A5969 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D00EE2A52EA1B1DC810BCA6 /* Pods-PerspectiveUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = PerspectiveUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -460,6 +686,7 @@
 		};
 		E4AABFE01D206354001A5969 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 419AD714BBC220EA0A2A89B5 /* Pods-PerspectiveUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = PerspectiveUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -488,6 +715,7 @@
 				E4AABFDA1D206354001A5969 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4AABFDB1D206354001A5969 /* Build configuration list for PBXNativeTarget "PerspectiveTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +724,7 @@
 				E4AABFDD1D206354001A5969 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4AABFDE1D206354001A5969 /* Build configuration list for PBXNativeTarget "PerspectiveUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +733,7 @@
 				E4AABFE01D206354001A5969 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

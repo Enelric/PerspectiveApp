@@ -9,10 +9,13 @@
 import UIKit
 
 class ProfileViewController: UIViewController {
-
+    
+    @IBOutlet weak var profileLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        //profileLabel.text = "Profile"
+        //backButton.addTarget(self, action: #selector(backButtonClick(_:)), forControlEvents: .TouchUpInside)
         // Do any additional setup after loading the view.
     }
 
@@ -21,7 +24,6 @@ class ProfileViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
     /*
     // MARK: - Navigation
 

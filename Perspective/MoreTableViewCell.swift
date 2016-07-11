@@ -10,6 +10,8 @@ import UIKit
 
 class MoreTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var tableButton: UIButton!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
