@@ -2,28 +2,42 @@
 //  CalendarViewController.swift
 //  Perspective
 //
-//  Created by Daniel Dunbar on 7/10/16.
+//  Created by Daniel Dunbar on 7/17/16.
 //  Copyright © 2016 Perspective Fitness. All rights reserved.
 //
 
 import UIKit
 import JTAppleCalendar
 
-
 class CalendarViewController: UIViewController {
     
     
     @IBOutlet var calendarView: JTAppleCalendarView!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         self.calendarView.dataSource = self
         self.calendarView.delegate = self
         self.calendarView.registerCellViewXib(fileName: "CalendarCellView")
-        
-        calendarView.cellInset = CGPoint(x: 0, y: 0)
+        // Do any additional setup after loading the view.
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
     }
     
+
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
+    }
+    */
+
 }
 
 extension CalendarViewController: JTAppleCalendarViewDataSource, JTAppleCalendarViewDelegate  {
@@ -42,7 +56,6 @@ extension CalendarViewController: JTAppleCalendarViewDataSource, JTAppleCalendar
     }
     
     func calendar(calendar: JTAppleCalendarView, isAboutToDisplayCell cell: JTAppleDayCellView, date: NSDate, cellState: CellState) {
-        (cell as! CalendarCellView).setupCellBeforeDisplay(cellState, date: date)
+        (cell as! CalCellView).setupCellBeforeDisplay(cellState, date: date)
     }
-    
 }

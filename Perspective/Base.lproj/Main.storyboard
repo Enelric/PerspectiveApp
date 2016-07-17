@@ -217,14 +217,15 @@
                         <viewControllerLayoutGuide type="top" id="47v-ZF-Tgq"/>
                         <viewControllerLayoutGuide type="bottom" id="nYV-Jr-94v"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="0J2-YO-Nwp" customClass="JTAppleCalendarView" customModule="JTAppleCalendar">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <view key="view" opaque="NO" contentMode="scaleAspectFill" id="0J2-YO-Nwp" customClass="JTAppleCalendarView" customModule="JTAppleCalendar">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.98068016767501831" green="0.99211210012435913" blue="0.98784500360488892" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
                     <tabBarItem key="tabBarItem" systemItem="bookmarks" id="8Xb-dE-aeC"/>
                     <connections>
-                        <outlet property="calendarView" destination="0J2-YO-Nwp" id="nMS-PH-WFF"/>
+                        <outlet property="calendarView" destination="0J2-YO-Nwp" id="M13-JD-Yvh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yyt-yj-GO5" userLabel="First Responder" sceneMemberID="firstResponder"/>

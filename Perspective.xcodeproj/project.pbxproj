@@ -10,15 +10,14 @@
 		39E773F32E20835802F9EA78 /* Pods_PerspectiveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87939ABED77261369D153500 /* Pods_PerspectiveTests.framework */; };
 		5A4AF292F16A060D6F7949E8 /* Pods_PerspectiveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C7B5F15ED96013C1C6442C /* Pods_PerspectiveUITests.framework */; };
 		A36B5C2276D348678084BB80 /* Pods_Perspective.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3679AEF4123EF57D34C6692D /* Pods_Perspective.framework */; };
+		E402F50C1D3BE9B6009A9EA8 /* CalendarCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E402F50B1D3BE9B6009A9EA8 /* CalendarCellView.xib */; };
+		E402F50E1D3BEA50009A9EA8 /* CalCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E402F50D1D3BEA50009A9EA8 /* CalCellView.swift */; };
+		E402F5101D3BEB3D009A9EA8 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E402F50F1D3BEB3D009A9EA8 /* CalendarViewController.swift */; };
 		E40A82381D2861D000A680BB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40A82371D2861D000A680BB /* ProfileViewController.swift */; };
 		E40A823A1D28665000A680BB /* RewardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40A82391D28665000A680BB /* RewardsViewController.swift */; };
 		E40A823C1D28666C00A680BB /* ReferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40A823B1D28666C00A680BB /* ReferViewController.swift */; };
 		E40A823E1D28668300A680BB /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40A823D1D28668300A680BB /* NotificationViewController.swift */; };
 		E40A82401D28669700A680BB /* LogOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40A823F1D28669700A680BB /* LogOutViewController.swift */; };
-		E4121F771D32FB0200C9EACC /* CalendarCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4121F761D32FB0200C9EACC /* CalendarCellView.xib */; };
-		E4121F791D32FCB000C9EACC /* CalendarCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4121F781D32FCB000C9EACC /* CalendarCellView.swift */; };
-		E4121F7C1D33001700C9EACC /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4121F7B1D33001700C9EACC /* CalendarViewController.swift */; };
-		E4121F7E1D33080A00C9EACC /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4121F7D1D33080A00C9EACC /* CalendarView.swift */; };
 		E4A719D11D2965AB00BC9CD5 /* WorkoutPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A719D01D2965AB00BC9CD5 /* WorkoutPlanViewController.swift */; };
 		E4AABFB21D206353001A5969 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AABFB11D206353001A5969 /* AppDelegate.swift */; };
 		E4AABFB41D206353001A5969 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AABFB31D206353001A5969 /* FirstViewController.swift */; };
@@ -58,15 +57,14 @@
 		9225F8E98CE4AC68F7A27D60 /* Pods-Perspective.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Perspective.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Perspective/Pods-Perspective.debug.xcconfig"; sourceTree = "<group>"; };
 		A6A82C09ACC0436071B58581 /* Pods-PerspectiveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerspectiveTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PerspectiveTests/Pods-PerspectiveTests.release.xcconfig"; sourceTree = "<group>"; };
 		B4F435BBAAF99ABC4FA3E1CC /* Pods-Perspective.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Perspective.release.xcconfig"; path = "Pods/Target Support Files/Pods-Perspective/Pods-Perspective.release.xcconfig"; sourceTree = "<group>"; };
+		E402F50B1D3BE9B6009A9EA8 /* CalendarCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarCellView.xib; sourceTree = "<group>"; };
+		E402F50D1D3BEA50009A9EA8 /* CalCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalCellView.swift; sourceTree = "<group>"; };
+		E402F50F1D3BEB3D009A9EA8 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		E40A82371D2861D000A680BB /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		E40A82391D28665000A680BB /* RewardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewardsViewController.swift; sourceTree = "<group>"; };
 		E40A823B1D28666C00A680BB /* ReferViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferViewController.swift; sourceTree = "<group>"; };
 		E40A823D1D28668300A680BB /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		E40A823F1D28669700A680BB /* LogOutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogOutViewController.swift; sourceTree = "<group>"; };
-		E4121F761D32FB0200C9EACC /* CalendarCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarCellView.xib; sourceTree = "<group>"; };
-		E4121F781D32FCB000C9EACC /* CalendarCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarCellView.swift; sourceTree = "<group>"; };
-		E4121F7B1D33001700C9EACC /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
-		E4121F7D1D33080A00C9EACC /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		E4A719D01D2965AB00BC9CD5 /* WorkoutPlanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkoutPlanViewController.swift; path = "Workout Tab/WorkoutPlanViewController.swift"; sourceTree = "<group>"; };
 		E4AABFAE1D206353001A5969 /* Perspective.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Perspective.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4AABFB11D206353001A5969 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -164,14 +162,13 @@
 			isa = PBXGroup;
 			children = (
 				E4AABFB11D206353001A5969 /* AppDelegate.swift */,
-				E4121F761D32FB0200C9EACC /* CalendarCellView.xib */,
-				E4121F781D32FCB000C9EACC /* CalendarCellView.swift */,
-				E4121F7B1D33001700C9EACC /* CalendarViewController.swift */,
 				E4AABFB31D206353001A5969 /* FirstViewController.swift */,
 				E4AABFB51D206353001A5969 /* SecondViewController.swift */,
+				E402F50B1D3BE9B6009A9EA8 /* CalendarCellView.xib */,
+				E402F50D1D3BEA50009A9EA8 /* CalCellView.swift */,
 				E4AABFB71D206353001A5969 /* Main.storyboard */,
-				E4121F7D1D33080A00C9EACC /* CalendarView.swift */,
 				E4A719D01D2965AB00BC9CD5 /* WorkoutPlanViewController.swift */,
+				E402F50F1D3BEB3D009A9EA8 /* CalendarViewController.swift */,
 				E40A82391D28665000A680BB /* RewardsViewController.swift */,
 				E40A823B1D28666C00A680BB /* ReferViewController.swift */,
 				E40A823D1D28668300A680BB /* NotificationViewController.swift */,
@@ -318,7 +315,7 @@
 			files = (
 				E4AABFBE1D206353001A5969 /* LaunchScreen.storyboard in Resources */,
 				E4AABFBB1D206353001A5969 /* Assets.xcassets in Resources */,
-				E4121F771D32FB0200C9EACC /* CalendarCellView.xib in Resources */,
+				E402F50C1D3BE9B6009A9EA8 /* CalendarCellView.xib in Resources */,
 				E4AABFB91D206353001A5969 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -473,10 +470,9 @@
 				E4AABFE41D20678C001A5969 /* MoreTableViewCell.swift in Sources */,
 				E4AABFB61D206353001A5969 /* SecondViewController.swift in Sources */,
 				E40A823E1D28668300A680BB /* NotificationViewController.swift in Sources */,
-				E4121F791D32FCB000C9EACC /* CalendarCellView.swift in Sources */,
 				E4AABFB21D206353001A5969 /* AppDelegate.swift in Sources */,
-				E4121F7E1D33080A00C9EACC /* CalendarView.swift in Sources */,
-				E4121F7C1D33001700C9EACC /* CalendarViewController.swift in Sources */,
+				E402F50E1D3BEA50009A9EA8 /* CalCellView.swift in Sources */,
+				E402F5101D3BEB3D009A9EA8 /* CalendarViewController.swift in Sources */,
 				E4AABFB41D206353001A5969 /* FirstViewController.swift in Sources */,
 				E4A719D11D2965AB00BC9CD5 /* WorkoutPlanViewController.swift in Sources */,
 				E40A82401D28669700A680BB /* LogOutViewController.swift in Sources */,
