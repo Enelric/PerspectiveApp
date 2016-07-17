@@ -19,6 +19,8 @@ class CalendarViewController: UIViewController {
         self.calendarView.dataSource = self
         self.calendarView.delegate = self
         self.calendarView.registerCellViewXib(fileName: "CalendarCellView")
+        
+        calendarView.cellInset = CGPoint(x: 0, y: 0)
         // Do any additional setup after loading the view.
     }
 
